@@ -1,6 +1,20 @@
 # Installing operating system images on Mac OS
 
-On Mac OS you have the choice of the command line `dd` tool or using the graphical tool ImageWriter to write the image to your SD card.
+On Mac OS you have the choice of the command line `dd` tool or using the graphical tool ImageWriter or Etcher to write the image to your SD card.
+
+## Using Etcher (Completely graphical interface)
+
+_Note: [Etcher](https://etcher.io) is a free, third party tool that you have to download first. Use it at your own risk, you can cause as much havoc as with the other two approaches. But it works very well and completely graphical._
+
+* If you haven't done so, download your Raspbian image
+* Download [Etcher](https://etcher.io) for your platform and install it 
+* Connect the SD card reader (if you use an external reader)
+* Insert the SD card
+* Launch Etcher and follow the three easy steps:
+1. Select the image you downloaded 
+1. Select the SD card drive 
+1. Flash! (_You might have to enter your password in the process, this is completely expected) 
+* Done (Etcher will verify the flashed image for you by default)
 
 ## (Mostly) graphical interface
 
